@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "gt-sectra";
+    src: url(GT-Sectra-Medium-Trial.woff2);
+}
+
+body {
+    padding: 0 2rem;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: gt-sectra;
+  }
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(3, 1fr) / none;
+    justify-items: center;
+    align-items: center;
+}
+
+.wrapper p {
+    padding: 1rem 0rem;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+
+}
+
+.fancyButton {
+    background-color: #9ae933;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: all .1s ease;
+}
+
+.fancyButton:hover {
+    box-shadow: 0 0 0 0.1rem #9cb975;
+    transform: scale(1.05);
+}
+
+.fancyButton:active {
+    transform: scale(0.95);
+    background-color: #8fd82f;
+}
+
